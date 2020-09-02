@@ -1,47 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
+ <head><!--Head starts-->
     <meta charset="utf-8">
     <title>Jenna's Google Rebuild</title>
     <link rel="stylesheet" href="main.css">
     <link rel='shortcut icon' href='favicon.png' type='image/png'/>
 </head>
-<body>
-    <header>
-        <div class="header-links">
-            <div class="header-links-left">
-                <a href="#">About</a>
-                <a href="#">Store</a>
-            </div>
-             <div class="header-links-right">
-                 <a href="#">Gmail</a>
-                 <a href="#">Images</a>
-                <div class="icon-grid">
-                 <div class="icon-box"></div>
-                 <div class="icon-box"></div>
-                 <div class="icon-box"></div>
-                 <div class="icon-box"></div>
-                 <div class="icon-box"></div>
-                 <div class="icon-box"></div>
-                 <div class="icon-box"></div>
-                 <div class="icon-box"></div>
-                 <div class="icon-box"></div>
-            </div>
+<body><!--Body starts-->
+    <nav class="topnav"> <!--Top Left Nav-->
+        <div class="topleft">
+            <a href="#">About</a>
+            <a href="#">Store</a>
+         </div>
+        <div class="topright"><!--Top Right Nav -->
+            <a href="#">Gmail</a>
+            <a href="#">Images</a>
+            <img src="/images/googleapps.png" alt="Google Apps Icon">
             <button type="button" class="sign-in-button" value="Sign In">Sign In</button>
-            </div>
-        </div>
-        </div>
-    </header>
-    <div class="container">
-        <div class="logo-image">
-            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo" id="logo">
-        </div>
-        <form>
-            <label for="search-bar"></label>
-            <input type="search" id="search-bar" name="searc-bar">
-            <button type="submit" class="search-button" value="Google Search">Google Search</button>
-            <button type="submit" class="search-button" value="I'm Feeling Lucky">I'm Feeling Lucky</button>
-        </form>
+         </div>
+        </nav><!--Logo-->
+        <img class="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+        <form class="search-bar"><!--Search Bar-->
+            <input type="search" id="bar">
+        </form><!--Search Buttons-->
+        <button type="submit" class="search-button" value="Google Search">Google Search</button>
+        <button type="submit" class="search-button" value="I'm Feeling Lucky">I'm Feeling Lucky</button>
         <footer>
             <div class="footer-links">
                 <div class="footer-links-left">
