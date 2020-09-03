@@ -1,0 +1,23 @@
+html {
+    font-family: arial, sans-serif;
+    font-size: 13px;
+}
+.topleft {
+  color: #000000;
+  opacity: .75;
+  float: left;
+  overflow: auto;
+
+}
+.topright {
+    color: #000000;
+    opacity: .75;
+    float: right;
+    overflow: auto;
+}
+
+.apps {
+  opacity: 0.55;  
+  float: right;
+  overflow: auto;
+}
