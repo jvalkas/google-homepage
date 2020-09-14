@@ -6,43 +6,35 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  overflow: hidden;
+}
+a {
+  text-decoration: none;
+  margin-left: 0.75em;
+  margin-right: 0.75em;
+  text-align: center;
+  padding: 10px 8px;
 }
 .about {
-  display: block;
   float: left;
-  padding: 8px;
-  background-color: #ffffff;
 }
 .store {
-  display: block;
   float: left;
-  padding: 8px;
-  background-color: #ffffff;
 }
-.sign-in-button{
-  display: block;
+.sign-in-button {
   float: right;
-  padding: 8px;
-  background-color: #ffffff;
+  margin-top: 10px;
+  display: inline-block;
+  text-align: center;
 }
-.apps{
-  display: block;
+.apps {
   float: right;
-  padding: 8px;
-  background-color: #ffffff;
-  opacity: 55%;
 }
-.images{
-  display: block;
+.images {
   float: right;
-  padding: 8px;
-  background-color: #ffffff;
 }
-.gmail{
-  display: block;
+.gmail {
   float: right;
-  padding: 8px;
-  background-color: #ffffff;
 }
 .logo {
   display: block;
