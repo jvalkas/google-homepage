@@ -13,28 +13,45 @@ a {
   margin-left: 0.75em;
   margin-right: 0.75em;
   text-align: center;
-  padding: 10px 8px;
+  position: relative;
 }
 .about {
   float: left;
+  padding-top: 10px;
 }
 .store {
   float: left;
+  padding-top: 10px;
 }
 .sign-in-button {
   float: right;
-  margin-top: 10px;
   display: inline-block;
   text-align: center;
+  background-color: #4387fd;
+  color: white;
+  line-height: 30px;
+  border-radius: 2px;
+  cursor: pointer;
+  border-color: #4387fd;
+  border-style: solid;
+  padding: 0px 10px 0px;
 }
 .apps {
   float: right;
+  margin: 0px 10px;
+  opacity: 50%;
+  padding-right: 5px;
+}
+.apps:hover {
+  opacity: 100%;
 }
 .images {
   float: right;
+  padding-top: 10px;
 }
 .gmail {
   float: right;
+  padding-top: 10px;
 }
 .logo {
   display: block;
@@ -46,9 +63,10 @@ a {
 .search-bar {
   display: flex;
   margin: 25px auto;
-  width: 50%;
+  width: 70%;
   height: 40px;
   border-radius: 25px;
+  align-self: center;
 }
 .mic {
   height: 20px;
